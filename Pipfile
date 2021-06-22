@@ -10,7 +10,6 @@ scikit-learn = "*"
 plotly = "*"
 notebook = "*"
 spacy = "*"
-pickle5 = "*"
 joblib = "*"
 
 [dev-packages]
