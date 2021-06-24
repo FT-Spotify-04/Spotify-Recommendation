@@ -12,6 +12,12 @@ notebook = "*"
 spacy = "*"
 pickle5 = "*"
 joblib = "*"
+flask = "*"
+flask-sqlalchemy = "*"
+jinja2 = "*"
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+aiofiles = "*"
 
 [dev-packages]
 
