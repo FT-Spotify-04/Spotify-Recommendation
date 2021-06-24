@@ -52,8 +52,7 @@ def echo(
     """
 
     # Make the prediction
-    # prediction = song_recommend(name,artist)
-    prediction = name
+    prediction = song_recommend(name,artist)
 
     return templates.TemplateResponse('prediction.html',
                                       {"request": request,

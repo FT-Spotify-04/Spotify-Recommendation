@@ -16,7 +16,7 @@
 			<!-- First Section -->
 				<section id="first">
 					<header>		
-						<h2>Make a prediction using our neural network</h2>
+						<h2>Get the songs we recommend</h2>
 					</header>
 					<a href="/" class="button">Home</a>
 					
@@ -37,10 +37,10 @@
 						
 						
 						<h3>YOUR RECOMMENDED SONGS</h3>
-						<!-- {% for song in prediction%}
-						<h4>{{ song }}</h4>
-						{% endfor %} -->
-						{{ prediction }}
+						{% for song in prediction%}
+						<p>{{ song }}</p>
+						{% endfor %}
+	
 					</div>
 				</section>
 
