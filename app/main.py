@@ -21,6 +21,9 @@ def display_index(request: Request):
     """Displays index.html from templates when user loads root URL"""
     return templates.TemplateResponse('index.html', {"request": request})
 
+@app.get('/prediction')
+def display_about(request: Request):
+    return templates.TemplateResponse('prediction.html', {"request": request})
 
 
 app.mount("/assets",
