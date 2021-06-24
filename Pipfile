@@ -17,6 +17,7 @@ uvicorn = {extras = ["standard"], version = "*"}
 aiofiles = "*"
 wordcloud = "*"
 matplotlib = "*"
+python-multipart = "*"
 
 [dev-packages]
 

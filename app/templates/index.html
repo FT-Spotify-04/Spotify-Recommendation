@@ -27,33 +27,29 @@
 						</div>
 					</section>
 					
-						<li></li>
-				<!-- Section -->
+
+				<!-- First Section -->
 					<section id="first">
 						<header>
-							<h2>Make a prediction using our neural network</h2>
+							<h2>Make a prediction using neural network</h2>
 						</header>
-						<div class="field half">
-							<input type="text" name="name" id="name" placeholder="Song name" />
-							<ul class="actions">
-								<li><input type="submit" value="Get Prediction" class="primary" /></li>
-							</ul>
-							<h3>YOUR RECOMMENDED SONGS</h3>
-                                        <h4>{{ song1 }}</h4>
-                                        <h4>{{ song2 }}</h4>
-                                        <h4>{{ song3 }}</h4>
-                                        <h4>{{ song4 }}</h4>
-                                        <h4>{{ song5 }}</h4>
+
+						<div class="content">									
+							<h3>FIND YOUR RECOMMENDED SONGS</h3>
+							<p>This model is built using KNearest Neighbors. The songs from spotify is putting 
+								through a TF-IDF model to transform to vector than input to the KNN model to find 
+								top 5 similar songs.
+							</p>
+							<a href="/prediction" class="button primary">Get your songs</a>
 						</div>
-						<!-- <ul class="actions">
-							<li><a href="/prediction" class="button" width="500" height="500">Prediction</a></li>
-							<li><a href="/about" class="button">About</a></li> -->	
 					</section>
-					<section class="second">
+
+				<!-- Second Section -->
+					<section id="second">
 						<header>
 							<h2>About Us</h2>
 						</header>
-						<div>
+						<div class="content">
 							We are a team of data scientists currently attending Lambda School, an intensive online data science 
 							course for a career in applied statistics and predictive modeling. 
 							Building real, ready-to-ship products with a team of other students generating real work experience 
@@ -98,33 +94,20 @@
 						</div>
 					</section>
 
-				
-				
-				
-				<!-- Section -->
-			</div>
-			<a href="https://github.com/gaben3722" class="social-icon si-rounded si-small si-linkedin">
-				<i class="icon-linkedin"></i>
-				<i class="icon-linkedin"></i>
-			 </a>
+				<!-- Footer -->
+					<section>
+						<footer>
+							<h3>Repository</h3>
+							<ul class="icons">
+								<li><a href="https://github.com/FT-Spotify-04/Spotify-Recommendation" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</footer>
+					</section>
 
-				<div id="floatingNotification">
-				
-				</div>
-
+				<!-- Copyright -->
+					<div class="copyright">&copy; Ft-Spotify-24 June 2021. Developed by Minh Nguyen, Gabe Nosek, Justin Behringer, Jon Wright</a>.</div>
 			</div>
-			<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://github.com/FT-Spotify-04/Spotify-Recommendation" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Ft-Spotify-24 June 2021</li><li>Developed by:Minh Nguyen, Gabe Nosek, Justin Behringer, Jon Wright </li>
-					</ul>
-				</div>
-			</footer>
-	</div>
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>

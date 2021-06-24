@@ -11,28 +11,53 @@
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+		<div id="wrapper">				
+				<section></section>
+			<!-- First Section -->
+				<section id="first">
+					<header>		
+						<h2>Make a prediction using our neural network</h2>
+					</header>
+					<a href="/" class="button">Home</a>
+					
+					<div class="content">
+						<form action="/prediction" method="POST">
+							<div class="fields">
+								<div class="field half">
+									<input type="text" name="name" id="name" placeholder="Song name" />
+								</div>
+								<div class="field half">
+									<input type="text" name="artist" id="artist" placeholder="Artist name" />
+								</div>
+							</div>
+							<ul class="actions">
+								<li><input type="submit" value="Get Songs" class="primary" /></li>
+							</ul>
+						</form>
+						
+						
+						<h3>YOUR RECOMMENDED SONGS</h3>
+						<!-- {% for song in prediction%}
+						<h4>{{ song }}</h4>
+						{% endfor %} -->
+						{{ prediction }}
+					</div>
+				</section>
 
-		
 
-				<!-- Section -->
-					<section id="first">
-						<header>
-							<h2>Your top recommended songs</h2>
-						</header>
-						<div class="content">
-							<p><strong>You May Like</strong> <p> This song variable: {{ variable }}</p></p>
-                            <ul class="actions">
-                                <li><a href="/" class="button">Home</a></li>
-                                <li><a href="/about" class="button">About</a></li>
-							<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-						</div>
-					</section>
+			<!-- Footer -->
+				<section>
+					<footer>
+						<h3>Repository</h3>
+						<ul class="icons">
+							<li><a href="https://github.com/FT-Spotify-04/Spotify-Recommendation" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</footer>
+				</section>
 
-				
-
-
-			</div>
+			<!-- Copyright -->
+				<div class="copyright">&copy; Ft-Spotify-24 June 2021. Developed by Minh Nguyen, Gabe Nosek, Justin Behringer, Jon Wright</a>.</div>
+		</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
