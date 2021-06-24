@@ -11,8 +11,6 @@ plotly = "*"
 notebook = "*"
 spacy = "*"
 joblib = "*"
-wordcloud = "*"
-matplotlib = "*"
 
 [dev-packages]
 
