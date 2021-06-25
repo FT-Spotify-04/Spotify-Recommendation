@@ -1,4 +1,11 @@
+
 # Spotify-Recommendation
+![GitHub repo size](https://img.shields.io/github/repo-size/FT-Spotify-04/Spotify-Recommendation)
+![GitHub contributors](https://img.shields.io/github/contributors/FT-Spotify-04/Spotify-Recommendation)
+![GitHub license](https://img.shields.io/github/license/FT-Spotify-04/Spotify-Recommendation)
+![GitHub forks](https://img.shields.io/github/forks/FT-Spotify-04/Spotify-Recommendation?style=social)
+![Github stars](https://img.shields.io/github/stars/FT-Spotify-04/Spotify-Recommendation?style=social)
+![Github follow](https://img.shields.io/github/followers/FT-Spotify-04?style=social)
 
 Spotify Song Recommender is an `<APP>` that allows an `<Songs lover>` to quickly get the most `<Similar songs>` base on their favorite song.
 
@@ -57,11 +64,10 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 
 Thanks to the following people who have contributed to this project:
 
-* [@Brody Osterbuhr](https://github.com/BOsterbuhr) :beers:
-* [@Ryan Fikejs](https://github.com/RyanFikejs) :baby_bottle:
 * [@Minh Nguyen](https://github.com/minh14496) :high_brightness:
-* [@Jack Stanley](https://github.com/Jack4589) ⌨
-* [@Dennis Smith](https://github.com/domoreburpees) 😙
+* [@Gabe Nosek](https://github.com/gaben3722) ⌨
+* [@Justin Behringer](https://github.com/jbehringer95) 😙
+* [@Jon Wright](https://github.com/jon-wright-b) 😙
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
