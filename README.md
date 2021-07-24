@@ -9,7 +9,7 @@
 
 Spotify Song Recommender is an `<APP>` that allows an `<Songs lover>` to quickly get the most `<Similar songs>` base on their favorite song.
 
-[Get Your Recommended Songs](https://spotify-songfinder.herokuapp.com/)
+[Get Your Recommended Songs](https://spotifysongfinder.herokuapp.com/)
 
 [Product Vision Document](https://www.notion.so/Product-Vision-Document-b23cf186fc5a4a208ebf53dc4a69c2c4)
 
