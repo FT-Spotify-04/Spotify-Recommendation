@@ -67,7 +67,6 @@ Thanks to the following people who have contributed to this project:
 * [@Minh Nguyen](https://github.com/minh14496) :high_brightness:
 * [@Gabe Nosek](https://github.com/gaben3722) ⌨
 * [@Justin Behringer](https://github.com/jbehringer95) 😙
-* [@Jon Wright](https://github.com/jon-wright-b) 😙
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
